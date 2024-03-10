@@ -22,18 +22,18 @@ tl.to("#nav",{
   opacity:1,
   duration:1.5,
 })
-  })
+  },["#button"])
   return (
-    <div className='text-white flex justify-between relative'>
-      <div className='logo mx-36 p-3'>
+    <div className='text-white flex justify-between relative '>
+      <div className='logo lg:mx-36 md:mx-6 min-[320px]:mx-32 p-3 '>
         <p className='italic font-serif '>GMSANI</p>
       </div>
       <motion.div drag dragConstraints={reference} id='nav' className="opacity-0 main_nav bg-[#2D3250] flex-col gap-5 p-3 px-5 rounded-3xl shadow-black shadow-md absolute">
-        <IconButton onClick={() => { navigate("/") }}><HomeIcon className='text-white' /></IconButton>
-        <IconButton onClick={() => { navigate("about") }}> <PersonIcon className='text-white' /></IconButton>
-        <IconButton onClick={() => { navigate("experience") }}><PersonalVideoIcon className='text-white' /></IconButton>
-        <IconButton onClick={() => { navigate("recent_work") }}><BusinessCenterIcon className='text-white' /></IconButton>
-        <IconButton onClick={() => { navigate("contact") }}><MessageIcon className='text-white' /></IconButton>
+        <IconButton id='button' onClick={() => { navigate("/") }}><HomeIcon className='text-white' /></IconButton>
+        <IconButton id='button' onClick={() => { navigate("about") }}> <PersonIcon className='text-white' /></IconButton>
+        <IconButton id='button' onClick={() => { navigate("experience") }}><PersonalVideoIcon className='text-white' /></IconButton>
+        <IconButton id='button' onClick={() => { navigate("recent_work") }}><BusinessCenterIcon className='text-white' /></IconButton>
+        <IconButton id='button' onClick={() => { navigate("contact") }}><MessageIcon className='text-white' /></IconButton>
       </motion.div>
 
       {/* <motion.div

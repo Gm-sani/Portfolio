@@ -27,7 +27,7 @@ export default function Recent_work() {
         })
     },[])
   return (
-    <div>
+    <div className='bg-[#1F2544] h-full pb-5'>
         <div className='text-center text-white my-10'>
             <p id='intro1' className='opacity-0 text-[10px] text-slate-400 text-sans'>My Portfolio</p>
             <p id='name' className='opacity-0 text-lg font-sans font-bold text-slate-300'>Recent Works</p>
@@ -40,13 +40,13 @@ export default function Recent_work() {
                 <p className='pt-2 font-sans text-slate-400 text-[9px] w-[17rem]'>An Encrypted Chat app used to Communicate with Friends & Family</p>
             </div>
             {/*-----------------------1st row-1_2----------------------------------------*/}
-            <div className='bg-[#2D3250] rounded-lg p-4 '>
+            <div className='bg-[#2D3250] rounded-lg p-4 hidden md:block'>
                 <img src={textgm} alt="" className='h-[25vh] w-auto rounded-lg m-auto'/>
                 <p className='pt-3 font-sans font-semibold text-slate-200'>Text-Gm App</p>
                 <p className='pt-2 font-sans text-slate-400 text-[9px] w-[17rem]'>A text editor app used to edit text in different manner & having multiple toggle themes</p>
             </div>
             {/*-----------------------1st row-1_3----------------------------------------*/}
-            <div className='bg-[#2D3250] rounded-lg p-4 '>
+            <div className='bg-[#2D3250] rounded-lg p-4 hidden md:block'>
                 <img src={todo} alt="" className='h-[25vh] w-auto rounded-lg m-auto'/>
                 <p className='pt-3 font-sans font-semibold text-slate-200'>Todo App</p>
                 <p className='pt-2 font-sans text-slate-400 text-[9px] w-[17rem]'>A todo list reminder app used for storing Activities</p>
@@ -55,7 +55,7 @@ export default function Recent_work() {
         {/*-------------------------2nd row 2_1-----------------------------------------*/}
         <div id='work' className='opacity-0 flex gap-12 justify-center mt-8 mb-0'>
             {/*-----------------------1st row-1_1----------------------------------------*/}
-            <div className='bg-[#2D3250] rounded-lg p-4 '>
+            <div className='bg-[#2D3250] rounded-lg p-4 hidden md:block'>
                 <img src={parallax} alt="" className='h-[25vh] w-auto rounded-lg m-auto'/>
                 <p className='pt-3 font-sans font-semibold text-slate-200'>Parallax App</p>
                 <p className='pt-2 font-sans text-slate-400 text-[9px] w-[17rem]'>A parallax app used to create immersive user experiences by utilizing layered scrolling effects</p>
@@ -67,7 +67,7 @@ export default function Recent_work() {
                 <p className='pt-2 font-sans text-slate-400 text-[9px] w-[17rem]'>A news app which provide facility to watch latest news </p>
             </div>
             {/*-----------------------1st row-1_3----------------------------------------*/}
-            <div className='bg-[#2D3250] rounded-lg p-4 '>
+            <div className='bg-[#2D3250] rounded-lg p-4 hidden md:block'>
                 <img src={catering} alt="" className='h-[25vh] w-auto rounded-lg m-auto'/>
                 <p className='pt-3 font-sans font-semibold text-slate-200'>Catering App</p>
                 <p className='pt-2 font-sans text-slate-400 text-[9px] w-[17rem]'>A catering app which provide facility to streamlines event planning by offering customizable menus, real-time availability, and seamless booking</p>
@@ -76,13 +76,13 @@ export default function Recent_work() {
         {/* ----------------------------------------------3rd row--------------------------------------------- */}
         <div id='work' className='opacity-0 flex gap-12 justify-center mt-8 mb-0'>
             {/*-----------------------3st row-1_1----------------------------------------*/}
-            <div className='bg-[#2D3250] rounded-lg p-4 '>
+            <div className='bg-[#2D3250] rounded-lg p-4 hidden md:block'>
                 <img src={Academia} alt="" className='h-[25vh] w-auto rounded-lg m-auto'/>
                 <p className='pt-3 font-sans font-semibold text-slate-200'>Academia of Development</p>
                 <p className='pt-2 font-sans text-slate-400 text-[9px] w-[17rem]'>An Software-House Web application which provide facility to students to enroll in different cources offered by Software house</p>
             </div>
             {/*-----------------------3st row-1_2----------------------------------------*/}
-            <div className='bg-[#2D3250] rounded-lg p-4 '>
+            <div className='bg-[#2D3250] rounded-lg p-4 hidden md:block'>
                 <img src={Architect} alt="" className='h-[25vh] w-auto rounded-lg m-auto'/>
                 <p className='pt-3 font-sans font-semibold text-slate-200'>Arctitect App</p>
                 <p className='pt-2 font-sans text-slate-400 text-[9px] w-[17rem]'>An architect firm app which simplifies project management with intuitive design tools, collaborative features, and seamless document sharing.</p>

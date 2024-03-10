@@ -27,7 +27,7 @@ export default function Contact() {
     })
   },[])
   return (
-    <div className='pb-5'>
+    <div className='bg-[#1F2544] h-screen pb-5'>
         <div className='text-center text-white my-10'>
             <p id='intro' className='opacity-0 text-[10px] text-slate-400 text-sans'>Get in touch</p>
             <p id='name' className='opacity-0 text-lg font-sans font-bold text-slate-300'>Contact Me</p>
@@ -36,7 +36,7 @@ export default function Contact() {
             <div className='talk '>
              <p id='talk' className='opacity-0 font-sans font-semibold text-center text-slate-200'>Talk to me</p>
 {/*----------------------left 1st cont------------------------------*/}
-             <div id='box' className='opacity-0 bg-[#2D3250] rounded-lg text-center px-20 py-3 mt-4 '>
+             <div id='box' className='opacity-0 bg-[#2D3250] rounded-lg text-center px-20 py-3 mt-4 min-[310px]:px-10'>
                 <IconButton><EmailIcon className='text-slate-200'/></IconButton>
                 <p className='font-sans font-semibold text-slate-200'>Email</p>
                 <p className='text-slate-300 text-[12px]'>naeemmurtaza25@gmail.com</p>
@@ -46,7 +46,7 @@ export default function Contact() {
                 </div> */}
              </div>
              {/*----------------------left 2nd cont------------------------------*/}
-             <div id='box' className='opacity-0 bg-[#2D3250] rounded-lg text-center px-20 py-3 mt-4'>
+             <div id='box' className='opacity-0 bg-[#2D3250] rounded-lg text-center px-20 py-3 mt-4 min-[310px]:px-10'>
                 <IconButton><WhatsAppIcon className='text-slate-200'/></IconButton>
                 <p className='font-sans font-semibold text-slate-200'>Whatsapp</p>
                 <p className='text-slate-300 text-[12px]'>+92 302 5159404</p>
@@ -56,7 +56,7 @@ export default function Contact() {
                 </div> */}
              </div>
              {/*----------------------left 3rd cont------------------------------*/}
-             <div id='box' className='opacity-0 bg-[#2D3250] rounded-lg text-center px-20 py-3 mt-4 '>
+             <div id='box' className='opacity-0 bg-[#2D3250] rounded-lg text-center px-20 py-3 mt-4 min-[310px]:px-10'>
                 <IconButton><LinkedInIcon className='text-slate-200'/></IconButton>
                 <p className='font-sans font-semibold text-slate-200'>Linkden</p>
                 <p className='text-slate-300 text-[12px]'>www.linkedin.com/in/naeemmurtaza25</p>

@@ -17,24 +17,21 @@ export default function Experience() {
             opacity:1,
             duration:0.5,
         })
-        tl.to("#back",{
-            opacity:1,
-            duration:0.5,
-        })
+        
     },[])
   return (
-    <div className='pb-5'>
+    <div className='bg-[#1F2544] h-screen pb-5'>
       <div className='text-center text-white mt-10'>
             <p id='intro1' className='text-[10px] text-slate-400 text-sans opacity-0'>My Abilities</p>
             <p id='name' className='opacity-0 text-lg font-sans font-bold text-slate-300 mb-4'>My Experience</p>
         </div>
         <div className='text-slate-200  flex justify-center gap-7'>
             {/*----------------------------front-end-------------------------------------------*/}
-            <div id='front' className='opacity-0 rounded-2xl bg-[#2D3250] text-center p-5'>
+            <div id='front' className='opacity-0 rounded-2xl bg-[#2D3250] text-center p-3'>
             <p className='text-lg font-sans font-bold text-slate-300'>Frontend</p>
             <p className='text-lg font-sans font-bold text-slate-300'>Development</p>
             
-            <div className='flex gap-24 p-5'>
+            <div className='flex lg:gap-24 md:gap-20 min-[320px]:gap-6 p-5'>
 
                 <div className='flex '>
                     <div>
@@ -59,7 +56,7 @@ export default function Experience() {
             </div>
 {/*------------------------------2nd line----------------------------------------*/}
 
-<div className='flex gap-24 p-5'>
+<div className='flex lg:gap-24 md:gap-20 min-[320px]:gap-6 p-5'>
 
 <div className='flex '>
     <div>
@@ -84,7 +81,7 @@ export default function Experience() {
 </div>
 
 {/*------------------------------3rd line------------------------------------*/}
-<div className='flex gap-24 p-5'>
+<div className='flex lg:gap-24 md:gap-20 min-[320px]:gap-6 p-5'>
 
 <div className='flex '>
     <div>

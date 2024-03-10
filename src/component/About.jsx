@@ -28,16 +28,17 @@ export default function About() {
              })
     },[])
   return (
-    <div className='pb-5'>
+    <div className='bg-[#1F2544] h-screen pb-5'>
         <div className='text-center text-white my-10'>
             <p id='intro1' className='text-[10px] text-slate-400 text-sans opacity-0'>My intro</p>
             <p id='about' className='text-lg font-sans font-bold text-slate-300 opacity-0'>About Me</p>
         </div>
         <div className='flex justify-center gap-14'>
-            <div id='pic' className='img_cont opacity-0'>
-                <img src={about_pic} alt="" className='h-72 w-auto'/></div>
+            <div id='pic' className='img_cont opacity-0 hidden md:block'>
+                <img src={about_pic} alt="" className='h-72 w-auto '/>
+            </div>
             <div id='experience' className='text_cont opacity-0'>
-            <div  className='flex gap-14 '>
+            <div  className='flex md:gap-14 min-[310px]:gap-2'>
                 <div className='bg-[#2D3250] px-8 py-2 rounded-lg text-center'>
                     <IconButton>
                     <WorkspacePremiumIcon className='text-slate-300'/>
