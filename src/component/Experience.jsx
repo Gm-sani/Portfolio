@@ -39,7 +39,7 @@ export default function Experience() {
                     </div>
                     <div>
                     <p className='font-semibold'>HTML</p>
-                    <p className='font-thin text-sm'>Basic</p>
+                    <p className='font-thin text-sm'>intermediate</p>
                     </div>
                 </div>
 
@@ -48,8 +48,8 @@ export default function Experience() {
                     <IconButton><VerifiedIcon className='text-slate-300'/></IconButton>
                     </div>
                     <div>
-                    <p className='font-semibold'>CSS/SCSS</p>
-                    <p className='font-thin text-sm'>Basic</p>
+                    <p className='font-semibold'>CSS</p>
+                    <p className='font-thin text-sm'>intermediate</p>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@ export default function Experience() {
     </div>
     <div>
     <p className='font-semibold'>Javascript</p>
-    <p className='font-thin text-sm'>Basic</p>
+    <p className='font-thin text-sm'>intermediate</p>
     </div>
 </div>
 
@@ -74,7 +74,7 @@ export default function Experience() {
     </div>
     <div>
     <p className='font-semibold'>Git</p>
-    <p className='font-thin text-sm'>Basic</p>
+    <p className='font-thin text-sm'>intermediate</p>
     </div>
 </div>
 
@@ -89,7 +89,7 @@ export default function Experience() {
     </div>
     <div>
     <p className='font-semibold'>Tailwind</p>
-    <p className='font-thin text-sm'>Basic</p>
+    <p className='font-thin text-sm'>Advanced</p>
     </div>
 </div>
 
@@ -99,7 +99,7 @@ export default function Experience() {
     </div>
     <div>
     <p className='font-semibold'>React</p>
-    <p className='font-thin text-sm'>Basic</p>
+    <p className='font-thin text-sm'>Advanced</p>
     </div>
 </div>
 

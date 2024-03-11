@@ -54,7 +54,7 @@ export default function About() {
                     <p className='text-[10px] text-slate-400'>24/7</p>
                 </div>
             </div>
-            <p className='text-slate-400 mt-8 w-72'>Frontend Developer. I create web pages with UI / UX user interfaces, I have years of experience and many clients are happy with the woek i did.</p>
+            <p className='text-slate-400 mt-8 w-72'>A React.js and Tailwind developer adept at crafting responsive user interfaces with streamlined code and efficient component-based architecture.</p>
             <button  onClick={() => { navigate("/contact") }} className='bg-slate-700 p-3 text-slate-200 rounded-lg mt-8 hover:shadow-sm hover:shadow-slate-200'>Contact Me</button>
             </div>
         </div>
