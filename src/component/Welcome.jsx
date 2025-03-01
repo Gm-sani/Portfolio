@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import welpic from "./IMG-20231101-WA0026-removebg-preview (1).png"
 import { useNavigate } from 'react-router';
-import gms_pdf from './Gms(F-end)final_Cv.pdf'
+import gms_pdf from './Gms_F-end(01).pdf'
 import gsap from 'gsap';
 
 export default function Welcome() {

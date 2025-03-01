@@ -59,7 +59,7 @@ export default function Contact() {
              <div id='box' className='opacity-0 bg-[#2D3250] rounded-lg text-center px-20 py-3 mt-4 min-[310px]:px-10'>
                 <IconButton><LinkedInIcon className='text-slate-200'/></IconButton>
                 <p className='font-sans font-semibold text-slate-200'>Linkden</p>
-                <p className='text-slate-300 text-[12px]'>www.linkedin.com/in/naeemmurtaza25</p>
+                <a href="https://www.linkedin.com/in/ghulam-murtaza-sani-a6506732b/" className='text-slate-300 text-[12px]'>www.linkedin.com/in/naeemmurtaza25</a>
                 {/* <div className='flex text-center justify-center'>
                 <p className='text-slate-500 text-[12px]'>Write me</p>
                 <IconButton className='h-1'><PlayArrowIcon className='text-slate-200 '/></IconButton>
